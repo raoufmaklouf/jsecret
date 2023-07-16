@@ -1,5 +1,13 @@
 # jsecret
 
-cd jsecret/;go build;mv jsecret /bin
+simple and fast tool to detect sensitive data in the source code such as javascript files or others 
 
-cat jsfiles.txt | jsceret && echo http://test.tld/main.js | jsecret
+# install 
+
+`go get github.com/raoufmaklouf/jsecret@latest`
+
+# Usage
+
+`cat jsfiles.txt | jsceret`
+
+`echo http://test.tld/main.js | jsecret`
