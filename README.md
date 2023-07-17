@@ -4,7 +4,7 @@ simple and fast tool to detect sensitive data in the source code such as javascr
 
 # install 
 
-`go get github.com/raoufmaklouf/jsecret
+`go install -v github.com/raoufmaklouf/jsecret@latest
 
 # Usage
 
