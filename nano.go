@@ -10,7 +10,7 @@ import (
 	"strings"
 )
 
-func mutcher(url string) {
+func matcher(url string) {
 	response := requester(url)
 	if response != "" {
 		Hach, _ := CreatHashSum(response)
