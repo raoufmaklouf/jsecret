@@ -88,6 +88,7 @@ func requester(url string) string {
 }
 
 var regex = map[string]string{
+	"TODO CRITICAL":            "TODO CRITICAL:"
 	"Yopmail":                  "@yopmail.com",
 	"Firebase":                 "[-a-zA-Z0-9@:%._~#=]{1,256}.firebaseio.com",
 	"AWS Access Key ID Value":  "(A3T[A-Z0-9]|AKIA|AGPA|AROA|AIPA|ANPA|ANVA|ASIA)[A-Z0-9]{16}",
